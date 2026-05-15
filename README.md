@@ -1,8 +1,8 @@
-# Frequency Law v8.0
+markdown# Frequency Law v8.0
 ## From Spin to the Universe: A New Understanding of Matter
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17874830-blue)](https://doi.org/10.5281/zenodo.17874830)
-[![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > *"The equations stay the same. The direction of reading changes."*
 
@@ -29,8 +29,198 @@ This work shows that:
 | **II** | Zitterbewegung as a Möbius Loop | Technical derivation: How spin-1/2 emerges from geometry, not postulates |
 | **III** | The Frequency Periodic Table | A new ordering of all particles — with predictions for missing ones |
 
+📄 **[Read the full paper →](FULL_PAPER.md)**
+
 ---
 
 ## 🔬 Key Results
 
 ### 1. Compton Frequency from First Principles
+f_compton = (m × c²) / h
+**Electron:** 1.2356 × 10²⁰ Hz  
+**Deviation from PDG:** 0.000013%
+
+### 2. Zitterbewegung Frequency
+f_zitter = 2 × f_compton
+The factor of 2 follows from Möbius topology (ΔΦ = 4π), not from fitting.
+
+### 3. Pauli Principle as Geometry
+Ψ_total = ψ₁ - ψ₂ = 0 (for identical fermions)
+Not a rule. Not a postulate. **Topologically enforced.**
+
+---
+
+## 🎯 Predictions
+
+The Frequency Periodic Table reveals **gaps** in the particle spectrum — like Mendeleev's periodic table in 1869.
+
+### Berrangium Omega (Ω)
+- **Mass:** ~16.2 MeV/c²
+- **Position:** Between electron and muon
+- **Experimental hint:** X17 anomaly (Atomki Institute, Hungary)
+- **Status:** Search ongoing
+
+### Stöcker Particle (Σ)
+- **Mass:** ~530 MeV/c²
+- **Position:** Between muon and proton
+- **Experimental hint:** f₀(500) resonance
+- **Status:** Search in meson spectroscopy
+- **Dedication:** Prof. Dr. Horst Stöcker (FIAS Frankfurt)
+
+---
+
+## 📊 The Frequency Periodic Table
+
+All known particles ordered by Compton frequency:
+
+| Particle | Mass | f_compton (Hz) | Status |
+|----------|------|----------------|--------|
+| Neutrino (ν₁) | ~2 meV | ~5 × 10⁸ | ✓ known |
+| Electron (e) | 0.511 MeV | 1.24 × 10²⁰ | ✓ known |
+| **Berrangium Ω** | ~16.2 MeV | ~3.9 × 10²¹ | ⚡ PREDICTION |
+| Muon (μ) | 105.7 MeV | 2.56 × 10²² | ✓ known |
+| **Stöcker Σ** | ~530 MeV | ~1.3 × 10²³ | ⚡ PREDICTION |
+| Proton (p) | 938.3 MeV | 2.27 × 10²³ | ✓ known |
+| Tau (τ) | 1.777 GeV | 4.3 × 10²³ | ✓ known |
+| Top quark (t) | 172.7 GeV | 4.18 × 10²⁵ | ✓ known |
+
+---
+
+## 🔗 Connection to Other Work
+
+### Mode Identity Theory (Blake Shatto, MIT)
+The Frequency Law independently derives the same structure:
+- **4π cycle** (Möbius condition)
+- **π/30 chronon** (minimal phase step)
+- **S³ topology** (3-sphere as base manifold)
+
+Two different starting points. Same fingerprint.
+
+---
+
+## 📁 Repository Structure
+Pauli-Solution-Frequency-Law/
+├── README.md                    # This file
+├── LICENSE                      # MIT License
+├── FULL_PAPER.md                # Complete work (all three parts)
+├── frequency_law.ipynb          # Jupyter Notebook with calculations
+├── docs/
+│   ├── PART_I_Pauli.md         # Part I: The story
+│   ├── PART_II_Derivation.md   # Part II: Technical derivation
+│   └── PART_III_Periodic.md    # Part III: Predictions
+├── calculations/
+│   ├── formulas.json           # Machine-readable formulas
+│   ├── particles_data.json     # Complete particle database
+│   └── metadata.json           # Project metadata
+└── figures/
+├── mobius_topology.svg
+├── frequency_table.svg
+└── causal_chain.svg
+
+---
+
+## 💻 Quick Start
+
+### Option 1: Jupyter Notebook (Recommended)
+
+```bash
+# Clone the repository
+git clone https://github.com/Christianfwb/Pauli-Solution-Frequency-Law.git
+cd Pauli-Solution-Frequency-Law
+
+# Install dependencies
+pip install numpy pandas matplotlib
+
+# Run the notebook
+jupyter notebook frequency_law.ipynb
+```
+
+### Option 2: Google Colab (No setup needed)
+
+1. Download `frequency_law.ipynb`
+2. Go to [Google Colab](https://colab.research.google.com/)
+3. Upload the notebook
+4. Run all cells!
+
+---
+
+## 🎓 For Physicists
+
+This is **not** fringe science. The mathematics is standard:
+- SU(2) spinor representation
+- Lorentz-invariant wave equation (□Φ = 0)
+- Compton frequency (textbook)
+- Zitterbewegung (Schrödinger 1930)
+
+What's new: **The interpretation.** Spin as topology. Time as phase. The Pauli principle as geometry.
+
+All predictions are **falsifiable**. The gaps are either there — or they're not.
+
+---
+
+## 📚 Citation
+
+If you use this work, please cite:
+
+```bibtex
+@misc{berrang2025frequency,
+  author       = {Berrang, Christian},
+  title        = {Frequency Law v8.0: From Spin to the Universe},
+  year         = {2025},
+  doi          = {10.5281/zenodo.17874830},
+  url          = {https://github.com/Christianfwb/Pauli-Solution-Frequency-Law}
+}
+```
+
+---
+
+## 🤝 Contributing
+
+This is a living document. If you:
+- Find errors in calculations
+- Have experimental data relevant to the predictions
+- Want to discuss the interpretation
+- Have suggestions for clarity
+
+Please **open an issue** or submit a **pull request**.
+
+---
+
+## 📧 Contact
+
+**Christian Berrang**  
+DOI: [10.5281/zenodo.17874830](https://doi.org/10.5281/zenodo.17874830)  
+GitHub: [@Christianfwb](https://github.com/Christianfwb)
+
+---
+
+## 📜 License
+
+This work is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute — with attribution.
+
+---
+
+## 🙏 Acknowledgments
+
+- **Wolfgang Pauli** — for the question that started it all
+- **Prof. Dr. Horst Stöcker** (FIAS Frankfurt) — mentor when nobody else was listening
+- **Blake Shatto** (MIT) — independent confirmation through Mode Identity Theory
+
+---
+
+<div align="center">
+
+### ⏱️ Every particle is a clock.
+### 🎼 Every clock has its own frequency.
+### 🔄 Every frequency has its own Möbius loop.
+
+**That is the Frequency Periodic Table.**
+
+---
+
+⭐ **Star this repository if you find it interesting!**
+
+[![GitHub stars](https://img.shields.io/github/stars/Christianfwb/Pauli-Solution-Frequency-Law?style=social)](https://github.com/Christianfwb/Pauli-Solution-Frequency-Law)
+
+</div>
