@@ -49,7 +49,7 @@ And from this one geometric fact, everything else follows:
 |---|---|
 | Spin is a mysterious quantum number | Spin is the topology of the phase cycle |
 | Pauli principle is a prohibition | Pauli principle is geometrically impossible |
-| Zitterbewegung factor of 2 is unexplained | Factor of 2 follows from ΔΦ = 4π |
+| Zitterbewegung factor of 2 is unexplained | Factor of 2 follows directly from ΔΦ = 4π |
 | Bosons and fermions are just different particles | Bosons and fermions live on different surfaces |
 | The equations work, but nobody knows why | The equations work, and now we know why |
 
@@ -58,44 +58,68 @@ The equations do not change.
 
 ---
 
-## Start Here
+## The Journey — Four Texts, One Story
 
-This repository contains three texts, each written for a different entry point.
-
-### → [Pauli.md](Pauli.md) — The Story
-
-*For anyone who wants to understand, not just calculate.*
-
-The story of Wolfgang Pauli — the genius who discovered the exclusion principle in 1925 and spent his entire life uncomfortable with it. Why did the world's most precise physicist call his own greatest discovery a "sin"? What was he missing?
-
-Start here if you want to understand the question before the answer.
+This repository tells one story in four parts.
+Each text stands alone. Together they form a complete picture.
 
 ---
 
-### → [Spin_Mobius.md](Spin_Mobius.md) — The Moment It Clicks
+### Act I → [Pauli.md](Pauli.md)
+**The Puzzle**
 
-*For the reader who wants to see the connection.*
+*For anyone who wants to understand the question before the answer.*
 
-Two facts that seem completely unrelated:
+1900. Vienna. A young physicist who could smell truth the way others smell perfume.
 
-1. An electron needs 720° — two full rotations — to return to its original state.
-2. A line drawn on a Möbius strip needs two full loops to return to its starting point.
+Wolfgang Pauli discovered the exclusion principle in 1925 — and spent the rest of his life uncomfortable with it. He knew it was true. He could not say why. He called his own greatest discovery *"the greatest sin against the spirit of physics."*
 
-These are the same fact.
-
-This text builds the bridge — step by step, without skipping anything — until the moment it clicks.
+This is his story. And the story of the question that remained open for 100 years.
 
 ---
 
-### → [Mobius.md](Mobius.md) — What Changes
+### Act II → [Schrodinger.md](Schrodinger.md)
+**The Witness**
+
+*For those who want to see how close the answer was.*
+
+1930. Schrödinger was studying the Dirac equation when something appeared that did not fit the world.
+
+The electron was trembling — at exactly **twice** its Compton frequency.
+
+He named it Zitterbewegung. He did not know what it meant.
+
+He had touched the Möbius strip — without knowing what he was touching.
+
+---
+
+### Act III → [Zitterbewegung.md](Zitterbewegung.md)
+**The Bridge**
+
+*The trembling that connects everything.*
+
+The factor of 2 sat in the middle of quantum mechanics for 90 years.
+Visible. Measurable. Completely unexplained.
+
+Pauli saw the antisymmetry of two electrons.
+Schrödinger saw the doubled frequency of one electron.
+
+Both were looking at the same surface — from different sides.
+
+This text shows the bridge between them.
+
+---
+
+### Act IV → [Mobius.md](Mobius.md)
+**What Changes**
 
 *For the reader who already knows the physics and wants to understand the shift.*
 
-Once you accept that spin is Möbius topology, three things follow immediately:
+Once you accept that spin is Möbius topology — everything follows.
 
-- The Zitterbewegung factor of 2 is explained
-- The Pauli exclusion principle becomes a theorem, not a rule
-- The stability of matter is a consequence of geometry, not law
+The Pauli exclusion principle is not a rule anymore. It is a theorem.
+The stability of matter is not a law anymore. It is geometry.
+The Zitterbewegung is not a curiosity anymore. It is the fingerprint.
 
 This text traces the consequences.
 
@@ -127,7 +151,8 @@ The Frequency Law is built on six axioms:
 
 ## Predictions
 
-The Frequency Periodic Table orders all particles by Compton frequency — like Mendeleev ordered elements by atomic mass.
+The Frequency Periodic Table orders all particles by Compton frequency —
+like Mendeleev ordered elements by atomic mass.
 
 And like Mendeleev, the table reveals **gaps**.
 
@@ -151,7 +176,9 @@ All predictions are **falsifiable**. The gaps are either there — or they are n
 
 ## Calculations
 
-The Jupyter notebook [`frequency_law.ipynb`](frequency_law.ipynb) contains all numerical calculations — Compton frequencies, PDG validation, Pauli principle demonstration.
+The Jupyter notebook [`frequency_law_v9_combined.ipynb`](frequency_law_v9_combined.ipynb)
+contains all numerical calculations — Compton frequencies, PDG validation,
+Pauli principle demonstration, Frequency Periodic Table.
 
 Run it in [Google Colab](https://colab.research.google.com/) without any setup.
 
@@ -186,6 +213,8 @@ Run it in [Google Colab](https://colab.research.google.com/) without any setup.
 *Every frequency has its own Möbius loop.*
 
 **That is the Frequency Periodic Table.**
+
+---
 
 ⭐ Star this repository if you find it interesting.
 
