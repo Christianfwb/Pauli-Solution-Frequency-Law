@@ -270,6 +270,30 @@ existing relations — not in the relations themselves.
 > consciousness model is no longer part of the axiomatic core. It is
 > treated as a separate and explicitly speculative line of inquiry.
 > Citations of the earlier numbering should be read against those versions.
+>
+> ### A note on the word "energy"
+
+This framework avoids using energy as an explanatory primitive — deliberately.
+
+In physics, energy is a conserved bookkeeping quantity with a defined unit.
+Outside physics, the same word is routinely used as a placeholder for
+something unexplained: an invisible substance, a force, a quality of a person
+or a place. The two meanings share nothing but spelling.
+
+A vocabulary built on frequency and phase is close enough to that second
+usage to be mistaken for it. The distinction is therefore drawn explicitly here:
+
+**Energy is not a substance in this framework, and not a cause.**
+It is frequency expressed in energy units. Since the 2019 SI redefinition,
+`h` is exactly fixed, so `E = h·f` is a conversion, not a derivation —
+comparable to converting metres to feet. Nothing appears that was not
+already there.
+
+The same applies to mass via `m = h·f/c²`.
+
+One quantity, three scales. No hidden third thing.
+
+If a claim here cannot be stated in hertz, it is not a claim of this framework.
 
 ---
 
