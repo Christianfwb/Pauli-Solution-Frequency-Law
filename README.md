@@ -8,69 +8,90 @@
 
 ---
 
+## Where This Sits
+
+This repository is the **close-up** of a larger frame.
+
+The [**Frequency Law**](https://github.com/Christianfwb/frequenzprojekt) asks the
+general question: what if frequency is primary, and time, mass and energy are
+what follow?
+
+**This work takes one case and looks closely** — spin, Pauli exclusion,
+Zitterbewegung — at the point where the inversion is most likely to break.
+
+You do not need the general frame first. What follows stands on its own.
+
+---
+
 ## The Question That Stayed With Pauli
 
-In 1925, Wolfgang Pauli discovered one of the most important rules in all of physics:
+In 1925, Wolfgang Pauli discovered one of the most important rules in physics:
 
 > **"Two electrons can never occupy the same quantum state."**
 
-Without this rule, there would be no atoms, no chemistry, no life.
+Without it there would be no atoms, no chemistry, no life.
 
-He knew it was true. He could prove it was true.
+He knew that it worked. The evidence was overwhelming. But he could not derive
+it from more general principles, or say why nature required it.
 
-But he could not say **why**.
+Twenty-one years later, accepting the Nobel Prize for that same discovery, he
+was still saying so. In his lecture of December 1946 he noted that already in
+his original paper he had stressed being unable to give a logical reason for
+the exclusion principle, or to deduce it from more general assumptions — and
+that he had always felt this to be a deficiency, as he still did.
 
-Twenty-one years later, accepting the Nobel Prize for that same discovery,
-he was still saying so. In his lecture of December 1946, Pauli noted that
-already in his original paper he had stressed being unable to give a logical
-reason for the exclusion principle, or to deduce it from more general
-assumptions — and that he had always felt this to be a deficiency,
-as he still did.
+The spin–statistics theorem of 1940 changed that situation substantially.
+What it supplies is a derivation within the structure of relativistic quantum
+field theory. What it does not uniquely determine is an ontology — an account
+of why that structure is the one realised in nature.
 
-The rule worked. The reason was missing.
-
-Standard quantum field theory later closed part of that gap:
-Pauli's own spin–statistics theorem of 1940 connects half-integer spin
-to antisymmetric states, and it is correct. What it supplies is a proof.
-What it does not supply is a picture — an answer to *why the connection
-between spin and statistics should exist at all.*
-
-This repository offers one.
+This repository offers one candidate, and is explicit about what a candidate
+is worth.
 
 ---
 
 ## What Changes With One Idea
 
-The Frequency Law starts with a simple observation:
+The framework begins with a single physical reading:
 
-> **Every particle is a clock.**
+> **Every massive particle can be treated as an internal frequency standard — a clock.**
 
-Not a ball. Not a point mass. Not an abstract quantum number.
+Not a ball. Not a point mass. A clock, with its own frequency and its own phase.
 
-A clock — with its own frequency, its own phase, its own internal rhythm.
+The mathematics this attaches to is standard. A spin-½ state has the familiar
+4π return structure associated with SU(2), the double cover of SO(3): a 2π
+rotation returns the state vector with a minus sign, and only 4π returns it
+unchanged. That is textbook, and nothing here disputes it.
 
-And spin? Spin is the **topology of that clock's cycle**.
+**The Frequency Law makes an additional identification:** it reads that structure
+as the topology of an underlying phase cycle. A boson's cycle closes in one turn;
+a fermion's takes two.
 
-A boson's cycle is a circle. One turn, return home.
-A fermion's cycle is a **Möbius strip**. Two turns to return home.
-
-This is not a metaphor. It is the mathematics of SU(2) —
-standard, textbook, uncontested.
-
-What the Frequency Law does is read it in the other direction:
+That identification is the framework's own claim, not standard physics.
 
 | Read forward | Read backward |
 |---|---|
 | Spin is a quantum number with a topological description | Spin *is* the topology of the phase cycle |
-| The Pauli principle is proven from spin statistics | The Pauli principle is what the geometry leaves possible |
-| The Zitterbewegung factor of 2 is an interference term | The factor of 2 is what a two-turn cycle produces |
-| Bosons and fermions differ by spin value | Bosons and fermions live on different surfaces |
-| The equations work | The equations work, and the picture explains the shape |
+| The Pauli principle follows from spin statistics | The Pauli principle is what the geometry leaves possible |
+| The Zitterbewegung factor of 2 is an interference term | The factor of 2 is a candidate signature of phase structure |
+| Bosons and fermions differ by spin value | Bosons and fermions differ by cycle topology |
 
-The equations do not change.
-**The reading does.**
+The equations do not change. **The reading does.**
 
 > *The equation is symmetric. The claim about causality is not.*
+
+---
+
+## The Standard This Sets Itself
+
+> **If changing the direction of reading changes nothing observable, it is ontology.**
+> **If it produces a novel quantitative prediction that survives experiment, it becomes physics.**
+
+By that test, Acts I–III are ontology. Act IV is where the framework attempts
+the second thing — and where it can fail.
+
+That distinction is maintained throughout. Nothing here is labelled as
+established that is not.
 
 ---
 
@@ -79,173 +100,143 @@ The equations do not change.
 ### → [Prologue.md](Prologue.md) — **The Blind Spot**
 **Why any of this is a question at all**
 
-Before the physics: what a choice of axiom costs, why algebraic
-reversibility is not causal direction, and why an observer made of
-time cannot describe time from outside it.
+What a choice of axiom costs. Why algebraic reversibility is not causal
+direction. Why an observer made of time cannot describe time from outside it.
 
-The axiom set A0–A5 is introduced here, along with the unit convention
-used throughout.
+The axiom set A0–A5, the unit convention, and the limits of the whole approach
+are stated here.
 
 *Read this first if you want to know why anyone would read equations backwards.
-Skip it if you only want the physics — the physics stands on its own numbers.*
+Skip it if you only want the physics.*
 
 ---
 
-## The Journey — Four Acts, One Story
+## The Journey — Four Acts
 
-Each text stands alone. Together they form a complete picture.
+Each text stands alone. Together they form one argument.
 
----
+### Act I → [Pauli.md](Pauli.md) — **The Puzzle**
 
-### Act I → [Pauli.md](Pauli.md)
-**The Puzzle**
+1900. Vienna. A young physicist who could smell truth the way others smell
+perfume. Pauli found the exclusion principle in 1925 and remained uneasy with
+it for the rest of his life — a question he never stopped calling a deficiency
+in his own work.
 
-*For anyone who wants to understand the question before the answer.*
+### Act II → [Schrodinger.md](Schrodinger.md) — **The Witness**
 
-1900. Vienna. A young physicist who could smell truth the way others smell perfume.
-
-Pauli discovered the exclusion principle in 1925 — and remained uneasy with it
-for the rest of his life. He knew it was true. He could not say why.
-
-This is his story, and the story of a question he never stopped calling
-a deficiency in his own work.
-
----
-
-### Act II → [Schrodinger.md](Schrodinger.md)
-**The Witness**
-
-*For those who want to see how close the answer was.*
-
-1930. Schrödinger was studying the Dirac equation when something appeared
-that did not fit the world.
-
-The electron was trembling — at exactly **twice** its Compton frequency.
-
+1930. Schrödinger was studying the Dirac equation when something appeared that
+did not fit: the electron trembling at exactly **twice** its Compton frequency.
 He named it Zitterbewegung. He did not know what it meant.
 
-He had touched the Möbius strip without knowing what he was touching.
+### Act III → [Zitterbewegung.md](Zitterbewegung.md) — **The Bridge**
 
----
+Pauli saw the antisymmetry of two electrons. Schrödinger saw the doubled
+frequency of one. This act argues they were looking at the same surface from
+different sides — and is explicit that arguing is not deriving.
 
-### Act III → [Zitterbewegung.md](Zitterbewegung.md)
-**The Bridge**
+### Act IV → [Mobius.md](Mobius.md) — **What Changes**
 
-*The trembling that connects everything.*
-
-The factor of 2 has sat in the middle of quantum mechanics since 1930.
-Visible. Measurable. Accounted for by QFT as interference between
-positive- and negative-energy solutions.
-
-Pauli saw the antisymmetry of two electrons.
-Schrödinger saw the doubled frequency of one electron.
-
-This text argues they were looking at the same surface from different sides.
-
----
-
-### Act IV → [Mobius.md](Mobius.md)
-**What Changes**
-
-*For the reader who already knows the physics and wants the consequences.*
-
-Once spin is read as Möbius topology, the ordering follows —
-and the ordering has gaps.
-
-This is where the framework becomes falsifiable.
+Once spin is read as cycle topology, an ordering follows. The ordering has gaps.
+This is where the framework becomes answerable.
 
 ---
 
 ## The Axiom Set
 
-| ID | Statement | Reading |
-|---|---|---|
-| **A0** | `N := {ΔΦ = 0}` | Null Field — no phase, no time, no mass |
-| **A1** | `f [Hz]` | Frequency is primary |
-| **A2** | `I ∝ ΔΦ` | Phase difference carries information |
-| **A3** | `T = ΔΦ / f` | Time is emergent |
-| **A4** | `E = h·f` | Energy is derived |
-| **A5** | `m = h·f / c²` | Mass is bound frequency |
+| ID | Statement | Reading | Status |
+|---|---|---|---|
+| **A0** | `N := {ΔΦ = 0}` | Null Field — no phase difference, therefore no emergent time | posited |
+| **A1** | `f [Hz]` | Frequency is primary | posited |
+| **A2** | ΔΦ distinguishes states | Phase difference permits distinguishability | qualitative |
+| **A3** | `T = ΔΦ / f` | Time is emergent | posited |
+| **A4** | `E = h·f` | Energy expressed as frequency | established relation |
+| **A5** | `m = h·f / c²` | Mass expressed as frequency | established relation |
 
-**Units.** ΔΦ is measured in **cycles** (complete turns), not radians.
-One turn is ΔΦ = 1 (= 2π rad); a fermion cycle is ΔΦ = 2 (= 4π rad).
-With this convention a single turn gives T = 1/f, the ordinary period.
-In radian notation the equivalent form is T = Δφ / (2πf).
+**Units.** ΔΦ is measured in **cycles** (complete turns), not radians. One turn
+is ΔΦ = 1 (= 2π rad); a spinor return is ΔΦ = 2 (= 4π rad). A single turn gives
+T = 1/f, the ordinary period. In radian notation: T = Δφ / (2πf).
 
-Nothing here is new mathematics. A4 is Planck. A5 is Planck combined
-with Einstein. The novelty, if there is one, lies in the ontological
-ordering of existing relations — not in the relations themselves.
+**A4 and A5 introduce no new numerical law.** They use the established
+energy–frequency and mass–energy relations to express the same scale in
+different units. Since the 2019 SI redefinition `h` is exactly fixed, so a
+frequency can be quoted directly in energy units — spectroscopy routinely does.
+One scale, three ways of writing it.
 
-> **Numbering.** Versions v7.x and v8.x used a five-axiom set without A0
-> and assigned A5 to a heuristic consciousness model. From v9.0 the Null
-> Field is A0, the numbering shifts, and the consciousness model is no
-> longer part of the axiomatic core.
+The novelty, if any, is in the ontological ordering of existing relations —
+not in the relations themselves.
+
+> **Numbering.** Versions v7.x and v8.x used five axioms without A0 and assigned
+> A5 to a heuristic consciousness model. From v9.0 the Null Field is A0, the
+> numbering shifts, and the consciousness model is no longer part of the core.
+
+---
+
+## Candidate Mass Windows
+
+The frequency ordering leaves gaps — as Mendeleev's ordering by atomic mass did.
+
+| Particle | Mass | f_compton (Hz) | Status |
+|---|---|---|---|
+| Neutrino benchmark | ~2 meV | ~4.8 × 10¹¹ | assumption |
+| Electron | 0.511 MeV | 1.24 × 10²⁰ | measured |
+| **Berrangium Ω** | **~16.2 MeV** | **~3.9 × 10²¹** | **candidate** |
+| Muon | 105.7 MeV | 2.56 × 10²² | measured |
+| **Stöcker Σ** | **~530 MeV** | **~1.3 × 10²³** | **candidate** |
+| Proton | 938.3 MeV | 2.27 × 10²³ | measured |
+| Tau | 1.777 GeV | 4.3 × 10²³ | measured |
+| Top quark | 172.7 GeV | 4.18 × 10²⁵ | scheme-dependent |
+
+**Berrangium Ω — ~16.2 MeV/c²** · between electron and muon.
+Experimental context: an anomaly near 17 MeV reported by the Atomki group in
+several nuclear transitions. Its interpretation remains disputed and awaits
+decisive independent confirmation.
+
+**Stöcker Σ — ~530 MeV/c²** · between muon and proton.
+Experimental context: the f₀(500) resonance — broad, long-known, and a
+persistently poor fit to the quark model.
+
+**These are candidates, not predictions.** Both values sit near known anomalies
+and were identified with those anomalies in view. Until a derivation produces
+these numbers *without* reference to the anomaly data, they are assignments of
+existing puzzles to gaps in the ordering — a weaker claim, and the honest one.
+
+Turning them into predictions requires: a derivation from the axioms alone,
+a stated uncertainty band fixed in advance, a distinguishing signature
+(width, spin/parity, decay channels), and an explicit exclusion criterion.
+
+That is the open work.
 
 ---
 
 ## For Physicists
 
-The mathematics is entirely standard:
-
-- SU(2) as universal cover of SO(3)
-- Lorentz-invariant wave equation: □Φ = 0
-- Compton frequency: f = mc²/h
-- Zitterbewegung: observed by Schrödinger 1930, measured by Gerritsma et al. 2010
+The mathematics is entirely standard: SU(2) as double cover of SO(3), the
+Lorentz-invariant wave equation, the Compton relation, Zitterbewegung as
+described by Schrödinger in 1930 and quantum-simulated with a trapped ion by
+Gerritsma et al. (2010).
 
 **What is new is the interpretation, not the derivation.**
 
-A note on what does *not* count as evidence: computing a particle's mass
-from its Compton frequency reproduces the measured value exactly.
-This is a consistency check, not a confirmation — the Compton frequency
-is defined through the mass, so the calculation returns what was put in.
-
-The framework earns or loses its keep on the two predictions below,
-which are not derived from known masses.
-
----
-
-## Predictions
-
-The Frequency Periodic Table orders particles by Compton frequency —
-as Mendeleev ordered elements by atomic mass.
-
-And as with Mendeleev, the ordering leaves **gaps**.
-
-| Particle | Mass | f_compton (Hz) | Status |
-|---|---|---|---|
-| Neutrino (ν₁) | ~2 meV | ~4.8 × 10¹¹ | ✓ known |
-| Electron (e) | 0.511 MeV | 1.24 × 10²⁰ | ✓ known |
-| **Berrangium Ω** | **~16.2 MeV** | **~3.9 × 10²¹** | **⚡ PREDICTION** |
-| Muon (μ) | 105.7 MeV | 2.56 × 10²² | ✓ known |
-| **Stöcker Σ** | **~530 MeV** | **~1.3 × 10²³** | **⚡ PREDICTION** |
-| Proton (p) | 938.3 MeV | 2.27 × 10²³ | ✓ known |
-| Tau (τ) | 1.777 GeV | 4.3 × 10²³ | ✓ known |
-| Top quark (t) | 172.7 GeV | 4.18 × 10²⁵ | ✓ known |
-
-**Berrangium Ω — ~16.2 MeV/c²**
-Sits between electron and muon. Experimental context: the X17 anomaly
-reported by the Atomki Institute (Hungary) near 17 MeV, replicated across
-several nuclear transitions and not yet explained.
-
-**Stöcker Σ — ~530 MeV/c²**
-Sits between muon and proton. Experimental context: the f₀(500) / sigma
-resonance, broad, long-known, and a persistently poor fit to the quark model.
-
-Mendeleev said: *"An element is missing here."*
-The Frequency Law says: *"A particle is missing here."*
-
-Both predictions are **falsifiable**. Search those windows and the
-resonances are there, or they are not.
+A note on what does *not* count as evidence: computing a particle's mass from
+its Compton frequency reproduces the measured value exactly. The Compton
+frequency is defined through the mass, so the calculation returns what was put
+in. It is a consistency check with no evidential weight — and it is labelled as
+such throughout.
 
 ---
 
 ## Calculations
 
-The Jupyter notebook [`frequency_law_v9_combined.ipynb`](frequency_law_v9_combined.ipynb)
-contains all numerical work — Compton frequencies, PDG comparison,
-the Pauli antisymmetry demonstration, and the Frequency Periodic Table.
+[`frequency_law_v9_combined.ipynb`](frequency_law_v9_combined.ipynb) contains
+the numerical work: unit conventions, PDG comparison, the Zitterbewegung factor
+derived from the Dirac energy separation, and the antisymmetrised two-fermion
+amplitude.
 
-Run it in [Google Colab](https://colab.research.google.com/) without any setup.
+**The Acts contain the source. The notebook is the compiler.** It tests whether
+the stated relations execute consistently; it does not reproduce the derivations
+that produced them.
+
+Runs in [Google Colab](https://colab.research.google.com/) without setup.
 
 ---
 
@@ -275,9 +266,7 @@ Run it in [Google Colab](https://colab.research.google.com/) without any setup.
 
 *Every particle is a clock.*
 *Every clock has its own frequency.*
-*Every frequency has its own Möbius loop.*
-
-**That is the Frequency Periodic Table.**
+*Every frequency has its own cycle topology.*
 
 ---
 
