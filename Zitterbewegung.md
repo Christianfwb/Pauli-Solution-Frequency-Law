@@ -473,5 +473,4 @@ And if the bridge holds, the trembling may indeed connect everything.
 ---
 
 **Frequency Law v9.0** | Christian Berrang
-**DOI:** 10.5281/zenodo.17874830
-**Repository:** `Christianfwb/Pauli-Solution-Frequency-Law`
+**Current source:** `Christianfwb/Pauli-Solution-Frequency-Law`

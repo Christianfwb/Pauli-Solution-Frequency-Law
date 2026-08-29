@@ -268,5 +268,5 @@ The Zitterbewegung was the truth.
 
 ---
 
-**Frequency Law v9.0** | Christian Berrang | DOI: 10.5281/zenodo.17874830
-github.com/Christianfwb/Pauli-Solution-Frequency-Law
+**Frequency Law v9.0** | Christian Berrang
+**Current source:** github.com/Christianfwb/Pauli-Solution-Frequency-Law

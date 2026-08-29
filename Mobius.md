@@ -217,5 +217,4 @@ That question is not settled by argument, and it is not settled by this document
 ---
 
 **Frequency Law v9.0** | Christian Berrang
-**DOI:** 10.5281/zenodo.17874830
-**Repository:** `Christianfwb/Pauli-Solution-Frequency-Law`
+**Current source:** `Christianfwb/Pauli-Solution-Frequency-Law`

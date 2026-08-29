@@ -1,7 +1,11 @@
 # Frequency Law v9.0
 ## From Spin to the Universe
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17874830-blue)](https://doi.org/10.5281/zenodo.17874830)
+[![Zenodo concept DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.16727005-blue)](https://doi.org/10.5281/zenodo.16727005)
+
+> **Citation status:** This repository is the current source for Frequency Law v9.0. The concept DOI
+> for all published Zenodo versions is
+> [`10.5281/zenodo.16727005`](https://doi.org/10.5281/zenodo.16727005).
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > *"The equations stay the same. The direction of reading changes."*
@@ -255,10 +259,12 @@ Runs in [Google Colab](https://colab.research.google.com/) without setup.
   author = {Berrang, Christian},
   title  = {Frequency Law v9.0: From Spin to the Universe},
   year   = {2026},
-  doi    = {10.5281/zenodo.17874830},
   url    = {https://github.com/Christianfwb/Pauli-Solution-Frequency-Law}
 }
 ```
+
+For the historical Zenodo record series, use the concept DOI
+[`10.5281/zenodo.16727005`](https://doi.org/10.5281/zenodo.16727005).
 
 ---
 
